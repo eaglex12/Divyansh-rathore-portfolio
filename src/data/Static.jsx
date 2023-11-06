@@ -69,13 +69,13 @@ export const experiences = [
     description:
       "Resolved a rendering issue at Shaadi.com by leveraging front-end development expertise to identify and fix the bug through thorough code analysis and testing, enhancing the user experience.",
   },
-  {
-    date: "January 2020 - Present",
-    company: "Self employed",
-    position: "Freelancer",
-    description:
-      "I specialize in designing user interfaces for websites and mobile applications. I also create logos, posters, and mockups. My designs are visually appealing, intuitive, and tailored to engage target audiences. With a deep understanding of design principles and industry trends, I consistently deliver high-quality work that captivates users.",
-  },
+  // {
+  //   date: "January 2020 - Present",
+  //   company: "Self employed",
+  //   position: "Freelancer",
+  //   description:
+  //     "I specialize in designing user interfaces for websites and mobile applications. I also create logos, posters, and mockups. My designs are visually appealing, intuitive, and tailored to engage target audiences. With a deep understanding of design principles and industry trends, I consistently deliver high-quality work that captivates users.",
+  // },
 ];
 
 
