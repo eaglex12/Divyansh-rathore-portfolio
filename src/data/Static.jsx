@@ -47,8 +47,7 @@ export const works = [
     title: "React Js Portfolio",
     imgUrl:p4,
         tech: ["React", "tailwind CSS"],
-    workUrl:
-      "https://www.behance.net/gallery/150189805/MAKLTI-Food-Delivery-App",
+    workUrl:"https://github.com/eaglex12/Divyansh-rathore-portfolio",
     duration: "700",
   },
 ];
