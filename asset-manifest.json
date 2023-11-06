@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Divyansh-rathore-portfolio/static/css/main.aea8b7ed.css",
-    "main.js": "/Divyansh-rathore-portfolio/static/js/main.2b5294cc.js",
+    "main.js": "/Divyansh-rathore-portfolio/static/js/main.9354788e.js",
     "static/media/pic1.JPG": "/Divyansh-rathore-portfolio/static/media/pic1.5791788b36fcdf4113b8.JPG",
     "static/media/p1.png": "/Divyansh-rathore-portfolio/static/media/p1.2bf3e8bedfd36cb4f39f.png",
     "static/media/p4.png": "/Divyansh-rathore-portfolio/static/media/p4.fa10355e58b1c47078b9.png",
@@ -9,7 +9,7 @@
     "static/media/py.png": "/Divyansh-rathore-portfolio/static/media/py.d8b377f05522bf35de36.png",
     "static/media/mysql.png": "/Divyansh-rathore-portfolio/static/media/mysql.c10b5bc47b47f99e1ff1.png",
     "static/media/p3.png": "/Divyansh-rathore-portfolio/static/media/p3.d3868405ba0d750c2aa2.png",
-    "static/media/cv.pdf": "/Divyansh-rathore-portfolio/static/media/cv.adfb14b102caba8d22b3.pdf",
+    "static/media/cv.pdf": "/Divyansh-rathore-portfolio/static/media/cv.ebfdb4a47b06a4560e0e.pdf",
     "static/media/cp.png": "/Divyansh-rathore-portfolio/static/media/cp.2b2276395e116be80813.png",
     "static/media/bootstrap.png": "/Divyansh-rathore-portfolio/static/media/bootstrap.cb0fcc269e8250f3551b.png",
     "static/media/symfony.png": "/Divyansh-rathore-portfolio/static/media/symfony.1285042ccdb8a5fd3f29.png",
@@ -24,10 +24,10 @@
     "static/media/graphql.png": "/Divyansh-rathore-portfolio/static/media/graphql.f6642672ab7b20e467ce.png",
     "index.html": "/Divyansh-rathore-portfolio/index.html",
     "main.aea8b7ed.css.map": "/Divyansh-rathore-portfolio/static/css/main.aea8b7ed.css.map",
-    "main.2b5294cc.js.map": "/Divyansh-rathore-portfolio/static/js/main.2b5294cc.js.map"
+    "main.9354788e.js.map": "/Divyansh-rathore-portfolio/static/js/main.9354788e.js.map"
   },
   "entrypoints": [
     "static/css/main.aea8b7ed.css",
-    "static/js/main.2b5294cc.js"
+    "static/js/main.9354788e.js"
   ]
 }
