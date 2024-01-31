@@ -13,9 +13,9 @@ const About = () => {
   /**
    * Handles the download button click event and downloads the resume file.
    */
-  const handleDownload = () => {
-    saveAs(file, "resume.pdf");
-  };
+  // const handleDownload = () => {
+  //   saveAs(file, "resume.pdf");
+  // };
 
   return (
     <div
@@ -55,12 +55,15 @@ const About = () => {
             {/* Download resume button */}
             <div className="mt-4">
               <button
-                onClick={handleDownload}
+                
                 className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#00FFCA] hover:border-[#00FFCA] rounded-sm hover:text-[#3A1078] font-semibold"
-              >
-                Download resume{" "}
+              
+                   onClick={() => window.open("https://drive.google.com/file/d/1aqCdw3Z6T3z58b1VWMwL36KMXgN1b8WW/view")}>
+
+                  
                 <span className="group-hover:translate-y-1 duration-300">
-                  <BsDownload className="ml-4" />
+                  Download 
+                  {/* <BsDownload className="ml-4" /> */}
                 </span>
               </button>
             </div>
