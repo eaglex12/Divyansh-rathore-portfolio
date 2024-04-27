@@ -9,7 +9,7 @@ const Experience = () => {
   }, []);
 
   return (
-    <div
+    <div id="experience"
       name="experience"
       className="min-h-screen bg-gradient-to-l from-[#21073C] to-[#3A1078] text-gray-300 py-32"
     >

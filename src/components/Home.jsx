@@ -1,10 +1,13 @@
-import React from 'react'
-import { HiArrowNarrowRight } from 'react-icons/hi'
+import React from "react";
+import { HiArrowNarrowRight } from "react-icons/hi";
 import Typewriter from "typewriter-effect";
 
 const Home = () => {
   return (
-    <div name="home" className="w-full h-screen bg-gradient-to-l from-[#21073C] to-[#3A1078]">
+    <div
+      name="home"
+      className="w-full h-screen bg-gradient-to-l from-[#21073C] to-[#3A1078]"
+    >
       {/* Container */}
       <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full">
         <p className="text-gray-50 text-lg">Hi, my name is</p>
@@ -13,7 +16,7 @@ const Home = () => {
         </h1>
         <div>
           <h2 className="text-2xl sm:text-4xl font-bold text-zinc-50 pt-2 flex">
-            <span className='mr-2'>I am</span>
+            <span className="mr-2">I am</span>
             <Typewriter
               options={{
                 loop: true,
@@ -30,21 +33,28 @@ const Home = () => {
           </h2>
         </div>
         <p className="text-gray-300 py-4 leading-8">
-        As a proficient full-stack developer, I harness a comprehensive skill set that encompasses both backend and frontend technologies. 
-        Alongside my prowess in development, I boast a solid foundation in Data Structures and Algorithms, enabling me to engineer robust and efficient solutions.
+          As a proficient full-stack developer, I harness a comprehensive skill
+          set that encompasses both backend and frontend technologies. Alongside
+          my prowess in development, I boast a solid foundation in Data
+          Structures and Algorithms, enabling me to engineer robust and
+          efficient solutions.
         </p>
         <div>
-          <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#00FFCA] hover:border-[#00FFCA] rounded-sm hover:text-[#3A1078] font-semibold">
+          <a
+            href="#experience"
+            className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#00FFCA] hover:border-[#00FFCA] rounded-sm hover:text-[#3A1078] font-semibold"
+            style={{ width: "25%" }}
+          >
             View Work{" "}
             <span className="group-hover:translate-x-1 duration-300">
               {" "}
               <HiArrowNarrowRight className="ml-4" />
             </span>
-          </button>
+          </a>
         </div>
       </div>
     </div>
   );
-}
+};
 
 export default Home;
