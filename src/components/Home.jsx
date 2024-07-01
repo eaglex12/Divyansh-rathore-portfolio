@@ -27,7 +27,11 @@ const Home = () => {
                   .pauseFor(1000)
                   .deleteAll()
                   .typeString("Coding Enthusiast")
-                  .start();
+                   .pauseFor(1000);
+                   .deleteAll()
+                   .typeString("Innovator")
+
+                    .start();
               }}
             />
           </h2>
