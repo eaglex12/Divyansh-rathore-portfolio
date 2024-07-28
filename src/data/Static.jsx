@@ -76,7 +76,7 @@ export const experiences = [
 	{
 		date: "June 2023 - Dec 2023",
 		company: "MyOoumph Networks Pvt Ltd",
-		position: "Full Stack Development",
+		position: "Full Stack Developer Internship",
 		description:
 			"Implemented Django and GraphQL for backend, enabling smooth data handling. Employed ReactJS, Apollo Client, and CSS for engaging user interfaces. Used Postman API for robust backend testing. Proficient in Git and GitHub for collaborative development.",
 	},
