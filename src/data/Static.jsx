@@ -20,6 +20,7 @@ import p1 from "../assets/p1.png";
 import p2 from "../assets/p2.png";
 import p3 from "../assets/p3.png";
 import p4 from "../assets/p4.png";
+import p5 from "../assets/p5.png";
 
 // Array of work objects
 export const works = [
@@ -60,6 +61,13 @@ export const works = [
 		tech: ["React", "tailwind CSS"],
 		workUrl: "https://github.com/eaglex12/Divyansh-rathore-portfolio",
 		duration: "700",
+	},
+	{
+		title: "Cover Letter Generator",
+		imgUrl: p5, // Replace with the appropriate image variable or URL
+		tech: ["React", "MUI"],
+		workUrl: "https://github.com/eaglex12/CoverLetterGenerator", // Replace with the actual URL
+		duration: "600", // Adjust as needed
 	},
 ];
 
