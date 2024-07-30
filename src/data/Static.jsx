@@ -65,7 +65,14 @@ export const works = [
 	{
 		title: "Cover Letter Generator",
 		imgUrl: p5, // Replace with the appropriate image variable or URL
-		tech: ["React", "MUI"],
+		 "tech": [
+    "React",
+    "MUI",
+    "Node.js",
+    "Express",
+    "Google Generative AI",
+    "Axios"
+  ],
 		workUrl: "https://github.com/eaglex12/CoverLetterGenerator", // Replace with the actual URL
 		duration: "600", // Adjust as needed
 	},
