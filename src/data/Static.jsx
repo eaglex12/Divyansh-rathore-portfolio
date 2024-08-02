@@ -39,6 +39,8 @@ export const works = [
 		],
 		workUrl: "https://github.com/eaglex12/AppleCraft",
 		duration: "400",
+		description:
+			"Apple Crafts is an e-commerce platform built with a full-stack approach. It allows users to browse and purchase handcrafted products with a secure authentication system and real-time data handling.",
 	},
 
 	{
@@ -47,6 +49,8 @@ export const works = [
 		tech: ["React", "Node", "React Inbuild Library"],
 		workUrl: "https://github.com/eaglex12/MY-ALGO-VIS",
 		duration: "500",
+		description:
+			"Algorithm Visualiser is a tool for visualizing various algorithms in action. It helps users understand algorithmic concepts through interactive and dynamic visual representations.",
 	},
 	{
 		title: "Blog Website",
@@ -54,6 +58,8 @@ export const works = [
 		tech: ["React", "Node", "Express", "Mongo DB"],
 		workUrl: "https://github.com/eaglex12/BLOG-BACKEND",
 		duration: "400",
+		description:
+			"The Blog Website project provides a platform for users to create, manage, and publish blog posts. It features a RESTful API backend for handling data and authentication, coupled with a React frontend.",
 	},
 	{
 		title: "React Js Portfolio",
@@ -61,20 +67,24 @@ export const works = [
 		tech: ["React", "tailwind CSS"],
 		workUrl: "https://github.com/eaglex12/Divyansh-rathore-portfolio",
 		duration: "700",
+		description:
+			"This portfolio website showcases various projects and skills using React and Tailwind CSS. It is designed to be a dynamic and responsive online resume for presenting professional achievements.",
 	},
 	{
 		title: "Cover Letter Generator",
 		imgUrl: p5, // Replace with the appropriate image variable or URL
-		 "tech": [
-    "React",
-    "MUI",
-    "Node.js",
-    "Express",
-    "Google Generative AI",
-    "Axios"
-  ],
+		tech: [
+			"React",
+			"MUI",
+			"Node.js",
+			"Express",
+			"Google Generative AI",
+			"Axios",
+		],
 		workUrl: "https://github.com/eaglex12/CoverLetterGenerator", // Replace with the actual URL
 		duration: "600", // Adjust as needed
+		description:
+			"The Cover Letter Generator uses advanced AI to create and improve cover letters. It provides an intuitive interface for users to upload their letters and receive enhanced versions tailored to specific job applications.",
 	},
 ];
 
