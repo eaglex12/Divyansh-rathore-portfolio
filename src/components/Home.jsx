@@ -42,8 +42,8 @@ const Home = () => {
 				<div>
 					<a
 						href="#experience"
-						className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#00FFCA] hover:border-[#00FFCA] rounded-sm hover:text-[#3A1078] font-semibold"
-						style={{ width: "25%" }}
+						className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#00FFCA] hover:border-[#00FFCA] rounded-sm hover:text-[#3A1078] font-semibold
+               w-[62%] sm:w-[25%]"
 					>
 						Explore My Journey
 						<span

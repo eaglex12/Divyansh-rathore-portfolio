@@ -1,8 +1,6 @@
 import React, { useEffect } from "react";
 import pic from "../assets/pic1.JPG";
 import { BsDownload } from "react-icons/bs";
-import { saveAs } from "file-saver";
-import file from "../assets/cv.pdf";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -10,29 +8,22 @@ const About = () => {
 	useEffect(() => {
 		AOS.init();
 	}, []);
-	/**
-	 * Handles the download button click event and downloads the resume file.
-	 */
-	// const handleDownload = () => {
-	//   saveAs(file, "resume.pdf");
-	// };
 
 	return (
 		<div
 			name="about"
-			className="w-full h-screen bg-gradient-to-l from-[#21073C] to-[#3A1078] text-gray-300 dark:bg-[#21073C]"
+			className="w-full min-h-screen bg-gradient-to-l from-[#21073C] to-[#3A1078] text-gray-300 dark:bg-[#21073C] flex items-center"
 		>
-			<div className="flex flex-col justify-center items-center w-full h-full">
-				<div className="max-w-[1000px] w-full grid grid-cols-2 gap-8">
+			<div className="max-w-[1000px] mx-auto p-4 flex flex-col items-center">
+				<div className="w-full grid grid-cols-1 sm:grid-cols-2 gap-8">
 					{/* About heading */}
-					<div className="sm:text-right pb-8 pl-4">
+					<div className="text-center sm:text-right pb-8 sm:pl-4">
 						<p className="text-4xl font-bold inline border-b-4 border-[#00FFCA]">
 							About
 						</p>
 					</div>
-					<div></div>
 				</div>
-				<div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4">
+				<div className="w-full grid grid-cols-1 sm:grid-cols-2 gap-8 px-4">
 					{/* Profile picture */}
 					<div
 						className="flex justify-center items-center"
@@ -43,15 +34,15 @@ const About = () => {
 						<img
 							src={pic}
 							alt="mahdi laith"
-							className="rounded-full shadow-2xl outline-offset-8 outline-dashed outline-2"
-							style={{ width: "30rem", height: "18rem" }}
+							className="rounded-full shadow-2xl outline-offset-8 outline-dashed outline-2
+               w-[20rem] h-[13rem] sm:w-[28rem] sm:h-[18rem]"
 						/>
 					</div>
 					{/* About content */}
-					<div className="flex flex-col justify-center">
+					<div className="flex flex-col justify-center text-center sm:text-left">
 						{/* Introduction */}
 						<p className="text-xl font-bold pb-2 text-[#00FFCA]">
-							Hello , it's a pleasure to meet you all.
+							Hello, it's a pleasure to meet you all.
 						</p>
 						{/* Description */}
 						<p className="text-sm leading-7">
@@ -68,7 +59,7 @@ const About = () => {
 							projects.
 						</p>
 						{/* Download resume button */}
-						<div className="mt-4">
+						<div className="mt-4 flex justify-center sm:justify-start">
 							<button
 								className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#00FFCA] hover:border-[#00FFCA] rounded-sm hover:text-[#3A1078] font-semibold"
 								onClick={() =>
@@ -77,9 +68,9 @@ const About = () => {
 									)
 								}
 							>
-								<span className="group-hover:translate-y-1 duration-300">
+								<span className="flex items-center justify-center group-hover:translate-y-1 duration-300">
 									Check out my resume
-									{/* <BsDownload className="ml-4" /> */}
+									<BsDownload className="ml-4" />
 								</span>
 							</button>
 						</div>
