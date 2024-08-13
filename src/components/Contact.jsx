@@ -47,21 +47,21 @@ const Contact = () => {
 	return (
 		<div
 			name="contact"
-			className="w-full h-screen bg-gradient-to-l from-[#21073C] to-[#3A1078] text-gray-300 py-32"
+			className="w-full min-h-screen bg-gradient-to-l from-[#21073C] to-[#3A1078] text-gray-300 py-24 sm:py-32"
 		>
-			<div className="flex flex-col justify-center items-center w-full h-full text-white">
+			<div className="flex flex-col justify-center items-center w-full h-full text-white px-4 sm:px-0">
 				{/* Heading */}
-				<p className="text-4xl font-bold inline border-b-4 border-[#00FFCA]">
+				<p className="text-3xl sm:text-4xl font-bold inline border-b-4 border-[#00FFCA]">
 					Contact
 				</p>
 				{/* Description */}
-				<p className="py-6">
+				<p className="py-4 sm:py-6 text-center">
 					Submit the form below or send me an email -{" "}
 					<span className="font-bold">divyanshsrathore13@gmail.com</span>
 				</p>
 
 				{/* Form */}
-				<form onSubmit={handleSubmit} className="w-full max-w-lg">
+				<form onSubmit={handleSubmit} className="w-full max-w-md sm:max-w-lg">
 					<input
 						type="text"
 						placeholder="Name"
@@ -97,14 +97,14 @@ const Contact = () => {
 					></textarea>
 
 					{/* Send Message Button */}
-					<div className="mt-4">
+					<div className="mt-4 flex justify-center">
 						<button
 							type="submit"
-							className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#00FFCA] hover:border-[#00FFCA] rounded-sm hover:text-[#3A1078] font-semibold"
+							className="text-white group border-2 px-6 py-3 my-2 flex items-center justify-center sm:justify-start hover:bg-[#00FFCA] hover:border-[#00FFCA] rounded-sm hover:text-[#3A1078] font-semibold"
 						>
 							Send Message
 							<span className="group-hover:translate-x-1 duration-300">
-								<IoSendSharp className="ml-4" />
+								<IoSendSharp className="ml-2 sm:ml-4" />
 							</span>
 						</button>
 					</div>

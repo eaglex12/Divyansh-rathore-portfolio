@@ -29,10 +29,10 @@ const Work = () => {
 		>
 			<div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center h-full text-white">
 				<div>
-					<h1 className="text-4xl font-bold inline border-b-4 border-[#00FFCA]">
+					<h1 className="text-3xl sm:text-4xl font-bold inline border-b-4 border-[#00FFCA]">
 						Recent Works
 					</h1>
-					<p className="text-xl py-6">
+					<p className="text-lg sm:text-xl py-6">
 						During my experience as a self-taught developer, I have created many
 						projects and shared them on LinkedIn and GitHub. I am always on the
 						lookout for new and challenging projects to work on.
@@ -51,13 +51,13 @@ const Work = () => {
 							<img
 								src={work.imgUrl}
 								alt="work"
-								className="w-full h-36 md:h-48 object-cover"
+								className="w-full h-32 sm:h-36 md:h-48 object-cover"
 							/>
 							<div className="w-full p-5 text-black">
-								<h3 className="text-lg md:text-xl mb-2 md:mb-3 font-semibold">
+								<h3 className="text-md sm:text-lg md:text-xl mb-2 md:mb-3 font-semibold">
 									{work.title}
 								</h3>
-								<p className="flex flex-wrap gap-2 flex-row items-center justify-start text-xs md:text-sm">
+								<p className="flex flex-wrap gap-2 flex-row items-center justify-start text-xs sm:text-sm">
 									{work.tech.map((item) => (
 										<span
 											key={item}

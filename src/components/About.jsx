@@ -45,7 +45,7 @@ const About = () => {
 							Hello, it's a pleasure to meet you all.
 						</p>
 						{/* Description */}
-						<p className="text-sm leading-7">
+						<p className="text-sm leading-7 text-justify">
 							I am a passionate Software Development Engineer with a robust
 							foundation in computer science and engineering, currently working
 							at basys.ai. My experience spans developing innovative software
