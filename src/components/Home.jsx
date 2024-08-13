@@ -10,12 +10,12 @@ const Home = () => {
 		>
 			{/* Container */}
 			<div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full">
-				<p className="text-gray-50 text-lg">Hi, my name is</p>
+				<p className="text-gray-50 text-lg sm:mt-0 mt-16">Hi, my name is</p>
 				<h1 className="text-4xl sm:text-7xl font-bold text-[#00FFCA]">
 					Divyansh Singh Rathore
 				</h1>
 				<div>
-					<h2 className="text-2xl sm:text-4xl font-bold text-zinc-50 pt-2 flex">
+					<h2 className="text-xl sm:text-4xl font-bold text-zinc-50 pt-2 flex">
 						<span className="mr-2">I am</span>
 						<Typewriter
 							options={{
