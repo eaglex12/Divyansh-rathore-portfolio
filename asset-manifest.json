@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Divyansh-rathore-portfolio/static/css/main.e6cf692c.css",
-    "main.js": "/Divyansh-rathore-portfolio/static/js/main.ca38f455.js",
+    "main.js": "/Divyansh-rathore-portfolio/static/js/main.1b9a1b0f.js",
     "static/media/pic1.JPG": "/Divyansh-rathore-portfolio/static/media/pic1.5791788b36fcdf4113b8.JPG",
     "static/media/p3.png": "/Divyansh-rathore-portfolio/static/media/p3.2bf3e8bedfd36cb4f39f.png",
     "static/media/p4.png": "/Divyansh-rathore-portfolio/static/media/p4.fa10355e58b1c47078b9.png",
@@ -25,10 +25,10 @@
     "static/media/graphql.png": "/Divyansh-rathore-portfolio/static/media/graphql.f6642672ab7b20e467ce.png",
     "index.html": "/Divyansh-rathore-portfolio/index.html",
     "main.e6cf692c.css.map": "/Divyansh-rathore-portfolio/static/css/main.e6cf692c.css.map",
-    "main.ca38f455.js.map": "/Divyansh-rathore-portfolio/static/js/main.ca38f455.js.map"
+    "main.1b9a1b0f.js.map": "/Divyansh-rathore-portfolio/static/js/main.1b9a1b0f.js.map"
   },
   "entrypoints": [
     "static/css/main.e6cf692c.css",
-    "static/js/main.ca38f455.js"
+    "static/js/main.1b9a1b0f.js"
   ]
 }
