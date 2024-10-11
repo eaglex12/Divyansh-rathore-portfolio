@@ -15,18 +15,59 @@ import nest from "../assets/langues/nest.png";
 import aws from "../assets/langues/aws.png";
 import postgresql from "../assets/langues/postgresql.png";
 import springboot from "../assets/langues/springboot.png";
+import p1Img1 from "../assets/p1/1.png";
+import p1Img2 from "../assets/p1/2.png";
+import p1Img3 from "../assets/p1/3.png";
+import p1Img4 from "../assets/p1/4.png";
+import p1Img5 from "../assets/p1/5.png";
+import p1Img6 from "../assets/p1/6.png";
 
-import p1 from "../assets/p1.png";
-import p2 from "../assets/p2.png";
-import p3 from "../assets/p3.png";
-import p4 from "../assets/p4.png";
-import p5 from "../assets/p5.png";
+import p2Img1 from "../assets/p2/1.png";
+// import p2Img2 from "../assets/p2/2.png";
+// import p2Img3 from "../assets/p2/3.png";
 
-// Array of work objects
+import p3Img1 from "../assets/p3/1.png"; // Only 1 image for p3
+
+import p4Img1 from "../assets/p4/1.png"; // Only 1 image for p4
+
+import p5Img1 from "../assets/p5/1.png";
+// import p5Img2 from "../assets/p5/2.png";
+// import p5Img3 from "../assets/p5/3.png";
+// import p5Img4 from "../assets/p5/4.png";
+// import p5Img5 from "../assets/p5/5.png";
+// import p5Img6 from "../assets/p5/6.png";
+// import p5Img7 from "../assets/p5/7.png";
+
+import p6Img1 from "../assets/p6/1.png"; // Only 1 image for p6
+import p6Img2 from "../assets/p6/2.png";
+import p6Img3 from "../assets/p6/3.png";
+import p6Img4 from "../assets/p6/4.png";
+import p6Img5 from "../assets/p6/5.png";
+import p6Img6 from "../assets/p6/6.png";
+import p6Img7 from "../assets/p6/7.png";
+
 export const works = [
 	{
+		title: "AIFT - AI Insights on Financial Data",
+		images: [p1Img1, p1Img2, p1Img3, p1Img4, p1Img5, p1Img6], // 6 images for AIFT
+		tech: [
+			"MERN Stack",
+			"Gemini AI",
+			"AWS S3",
+			"AWS EC2",
+			"Nginx",
+			"socket.io",
+			"Real-time Notifications",
+		],
+		github: "https://github.com/anubhav2102/aift-frontend",
+		live: "https://www.ai-ft.in/",
+		duration: "600",
+		description:
+			"Developed a SaaS platform using the MERN stack, integrated with Gemini AI for portfolio analysis, AI-powered calculators, and stock visualization. Enabled real-time notifications and report generation for financial advisory teams.",
+	},
+	{
 		title: "Apple Crafts",
-		imgUrl: p1,
+		images: [p2Img1], // Only 1 image for Apple Crafts
 		tech: [
 			"Node.js",
 			"Express.js",
@@ -37,42 +78,43 @@ export const works = [
 			"JSON Web Token",
 			"AWS EC2",
 		],
-		workUrl: "https://github.com/eaglex12/AppleCraft",
+		github: "https://github.com/eaglex12/AppleCraft",
 		duration: "400",
 		description:
 			"Apple Crafts is an e-commerce platform built with a full-stack approach. It allows users to browse and purchase handcrafted products with a secure authentication system and real-time data handling.",
 	},
-
 	{
 		title: "Algorithm Visualiser",
-		imgUrl: p2,
+		images: [p3Img1], // 3 images for Algorithm Visualiser
 		tech: ["React", "Node", "React Inbuild Library"],
-		workUrl: "https://github.com/eaglex12/MY-ALGO-VIS",
+		github: "https://github.com/eaglex12/MY-ALGO-VIS",
+		live: "https://algo-vizzz.netlify.app/",
 		duration: "500",
 		description:
 			"Algorithm Visualiser is a tool for visualizing various algorithms in action. It helps users understand algorithmic concepts through interactive and dynamic visual representations.",
 	},
 	{
 		title: "Blog Website",
-		imgUrl: p3,
-		tech: ["React", "Node", "Express", "Mongo DB"],
-		workUrl: "https://github.com/eaglex12/BLOG-BACKEND",
+		images: [p4Img1], // Only 1 image for Blog Website
+		tech: ["React", "Node", "Express", "MongoDB"],
+		github: "https://github.com/eaglex12/BLOG-BACKEND",
 		duration: "400",
 		description:
 			"The Blog Website project provides a platform for users to create, manage, and publish blog posts. It features a RESTful API backend for handling data and authentication, coupled with a React frontend.",
 	},
 	{
 		title: "React Js Portfolio",
-		imgUrl: p4,
-		tech: ["React", "tailwind CSS"],
-		workUrl: "https://github.com/eaglex12/Divyansh-rathore-portfolio",
+		images: [p5Img1], // Only 1 image for React Js Portfolio
+		tech: ["React", "Tailwind CSS"],
+		github: "https://github.com/eaglex12/Divyansh-rathore-portfolio",
+		live: "https://eaglex12.github.io/Divyansh-rathore-portfolio/",
 		duration: "700",
 		description:
 			"This portfolio website showcases various projects and skills using React and Tailwind CSS. It is designed to be a dynamic and responsive online resume for presenting professional achievements.",
 	},
 	{
 		title: "Cover Letter Generator",
-		imgUrl: p5, // Replace with the appropriate image variable or URL
+		images: [p6Img1, p6Img2, p6Img3, p6Img4, p6Img5, p6Img6, p6Img7], // 7 images for Cover Letter Generator
 		tech: [
 			"React",
 			"MUI",
@@ -81,8 +123,8 @@ export const works = [
 			"Google Generative AI",
 			"Axios",
 		],
-		workUrl: "https://github.com/eaglex12/CoverLetterGenerator", // Replace with the actual URL
-		duration: "600", // Adjust as needed
+		github: "https://github.com/eaglex12/CoverLetterGenerator",
+		duration: "600",
 		description:
 			"The Cover Letter Generator uses advanced AI to create and improve cover letters. It provides an intuitive interface for users to upload their letters and receive enhanced versions tailored to specific job applications.",
 	},
