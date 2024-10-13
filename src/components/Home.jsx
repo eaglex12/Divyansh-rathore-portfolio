@@ -6,12 +6,12 @@ const Home = () => {
 	return (
 		<div
 			name="home"
-			className="w-full h-screen bg-gradient-to-l from-[#21073C] to-[#3A1078]"
+			className="w-full h-screen bg-gradient-to-l from-[#000000] to-[#633d3d]"
 		>
 			{/* Container */}
 			<div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full">
 				<p className="text-gray-50 text-lg sm:mt-0 mt-16">Hi, my name is</p>
-				<h1 className="text-4xl sm:text-7xl font-bold text-[#00FFCA]">
+				<h1 className="text-4xl sm:text-7xl font-bold text-[#b7acac]">
 					Divyansh Singh Rathore
 				</h1>
 				<div>

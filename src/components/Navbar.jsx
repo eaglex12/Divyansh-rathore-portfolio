@@ -55,8 +55,8 @@ const Navbar = () => {
 		<div
 			className={
 				!showShadowNav
-					? "fixed w-full h-[80px] flex justify-between items-center px-4 bg-gradient-to-l from-[#21073C] to-[#3A1078] text-gray-300 z-20"
-					: "fixed w-full h-[80px] flex justify-between items-center px-4 bg-gradient-to-l from-[#21073C] to-[#3A1078] text-gray-300 z-20 shadow-2xl"
+					? "fixed w-full h-[80px] flex justify-between items-center px-4 bg-gradient-to-l from-[#000000] to-[#633d3d] text-gray-300 z-20"
+					: "fixed w-full h-[80px] flex justify-between items-center px-4 bg-gradient-to-l from-[#000000] to-[#633d3d] text-gray-300 z-20 shadow-2xl"
 			}
 		>
 			<div>

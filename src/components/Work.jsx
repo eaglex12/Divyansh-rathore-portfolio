@@ -54,7 +54,7 @@ export default function Work() {
 	return (
 		<div
 			name="work"
-			className="w-full bg-gradient-to-l from-[#21073C] to-[#3A1078] py-32"
+			className="w-full bg-gradient-to-l from-[#000000] to-[#633d3d] py-32"
 		>
 			<div className="max-w-7xl mx-auto p-4">
 				<div className="text-white mb-12">
@@ -91,7 +91,7 @@ export default function Work() {
 								</div>
 							</div>
 							<div className="w-full lg:w-1/2">
-								<div className="p-6 rounded-xl bg-[#2E0F59] shadow-[inset_-8px_-8px_16px_#1D0A3B,_inset_8px_8px_16px_#3F1477]">
+								<div className="p-6 rounded-xl bg-[#000000] shadow-[inset_-8px_-8px_16px_#1D0A3B,_inset_8px_8px_16px_#3F1477]">
 									<h3 className="text-2xl font-bold text-white mb-4">
 										{work.title}
 									</h3>

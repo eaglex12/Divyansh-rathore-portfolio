@@ -57,7 +57,7 @@ export default function Contact() {
 	return (
 		<div
 			name="contact"
-			className="w-full min-h-screen bg-gradient-to-l from-[#21073C] to-[#3A1078] text-gray-300 py-24 sm:py-32"
+			className="w-full min-h-screen bg-gradient-to-l from-[#000000] to-[#633d3d] text-gray-300 py-24 sm:py-32"
 		>
 			<div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
 				<div className="text-center mb-12">
@@ -68,7 +68,7 @@ export default function Contact() {
 						Get in touch or shoot me an email directly at{" "}
 						<a
 							href="mailto:divyanshsrathore13@gmail.com"
-							className="font-bold text-[#00FFCA] hover:underline"
+							className="font-bold text-[#FFFFFF] hover:underline"
 						>
 							divyanshsrathore13@gmail.com
 						</a>
@@ -76,7 +76,7 @@ export default function Contact() {
 				</div>
 
 				<div
-					className="bg-[#2E0F59] rounded-2xl shadow-[inset_-8px_-8px_16px_#1D0A3B,_inset_8px_8px_16px_#3F1477] p-8 sm:p-12"
+					className="bg-[#000000] rounded-2xl shadow-[inset_-8px_-8px_16px_#1D0A3B,_inset_8px_8px_16px_#3F1477] p-8 sm:p-12"
 					data-aos="fade-up"
 					data-aos-duration="1000"
 				>
