@@ -27,16 +27,22 @@ import p2Img1 from "../assets/p2/1.png";
 // import p2Img3 from "../assets/p2/3.png";
 
 import p3Img1 from "../assets/p3/1.png"; // Only 1 image for p3
+import p3Img2 from "../assets/p3/2.png";
+import p3Img3 from "../assets/p3/3.png";
+import p3Img4 from "../assets/p3/4.png";
+import p3Img5 from "../assets/p3/5.png";
+import p3Img6 from "../assets/p3/6.png";
 
 import p4Img1 from "../assets/p4/1.png"; // Only 1 image for p4
 
 import p5Img1 from "../assets/p5/1.png";
-// import p5Img2 from "../assets/p5/2.png";
-// import p5Img3 from "../assets/p5/3.png";
-// import p5Img4 from "../assets/p5/4.png";
-// import p5Img5 from "../assets/p5/5.png";
-// import p5Img6 from "../assets/p5/6.png";
-// import p5Img7 from "../assets/p5/7.png";
+import p5Img2 from "../assets/p5/2.png";
+import p5Img3 from "../assets/p5/3.png";
+import p5Img4 from "../assets/p5/4.png";
+import p5Img5 from "../assets/p5/5.png";
+import p5Img6 from "../assets/p5/6.png";
+import p5Img7 from "../assets/p5/7.png";
+import p5Img8 from "../assets/p5/8.png";
 
 import p6Img1 from "../assets/p6/1.png"; // Only 1 image for p6
 import p6Img2 from "../assets/p6/2.png";
@@ -85,7 +91,7 @@ export const works = [
 	},
 	{
 		title: "Algorithm Visualiser",
-		images: [p3Img1], // 3 images for Algorithm Visualiser
+		images: [p3Img1, p3Img2, p3Img3, p3Img4, p3Img5, p3Img6], // 3 images for Algorithm Visualiser
 		tech: ["React", "Node", "React Inbuild Library"],
 		github: "https://github.com/eaglex12/MY-ALGO-VIS",
 		live: "https://algo-vizzz.netlify.app/",
@@ -104,7 +110,7 @@ export const works = [
 	},
 	{
 		title: "React Js Portfolio",
-		images: [p5Img1], // Only 1 image for React Js Portfolio
+		images: [p5Img1, p5Img2, p5Img3, p5Img4, p5Img5, p5Img6, p5Img7, p5Img8], // Only 1 image for React Js Portfolio
 		tech: ["React", "Tailwind CSS"],
 		github: "https://github.com/eaglex12/Divyansh-rathore-portfolio",
 		live: "https://eaglex12.github.io/Divyansh-rathore-portfolio/",
